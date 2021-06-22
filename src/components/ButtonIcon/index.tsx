@@ -1,6 +1,5 @@
 import React from 'react'
-import { 
-  Button, 
+import {  
   View,
   Image, 
   Text,
