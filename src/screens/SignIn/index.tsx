@@ -12,15 +12,10 @@ import IllustrationImg from "../../assets/illustration.png"
 import {styles} from "./styles"
 
 export const Signin: React.FC = () => {
-  const [text, setText] = useState("Josileudo")
 
   return (
     <View style = {styles.container}>
-      <StatusBar 
-        barStyle = 'light-content'
-        backgroundColor = 'transparent'
-        translucent 
-      />
+      
         <Image 
         source = {IllustrationImg}
         style = {styles.image}
@@ -29,9 +24,9 @@ export const Signin: React.FC = () => {
 
       <View style= {styles.content}>
         <Text style = {styles.title}>
-          Organize {`\n`} 
-          suas jogatinas{`\n`} 
-          facilmente
+          Conecte-se {`\n`} 
+          e oganize suas{`\n`} 
+          jogatinas
         </Text>
         <Text style = {styles.subtitle}>
           Crie grupos para jogar seus games {`\n`}
